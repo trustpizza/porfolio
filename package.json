@@ -1,7 +1,7 @@
 {
-  "name": "weather-app",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "A weather app run through the Open Source Weather API",
+  "description": "Portfolio Page",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
