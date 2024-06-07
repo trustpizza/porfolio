@@ -1,11 +1,10 @@
 const navigate = (pageId) => {
-  const pages = document.querySelectorAll(".page");
+  const pages = document.querySelectorAll("[data-type='section']");
   pages.forEach((page) => {
     page.classList.add("hidden");
   });
 
   document.getElementById(pageId).classList.remove("hidden");
-  document.getElementById(pageId).classList.add("flex");
 };
 
 export default navigate;
